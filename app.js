@@ -23,8 +23,8 @@ submit.addEventListener('click',()=>{
         showAge.innerHTML+= `<h4>${age.value}</h4>`
         showPhone.innerHTML+= `<h4>${number.value}</h4>`
         showCNIC.innerHTML+= `<h4>${cnic.value}</h4>`
-        dlt.innerHTML+= `<h3 id="dlt-btn"><button><i class="fa-solid fa-delete-left"></i></button></h3>`
-        var coulom = document.getElementsByClassName('coulom')
+        // dlt.innerHTML+= `<h3 id="dltbtn"><button><i class="fa-solid fa-delete-left"></i></button></h3>`
+        // var coulom = document.getElementsByClassName('coulom')
     }else{
         alert('Please Fill The Form First')
     }
@@ -32,29 +32,11 @@ submit.addEventListener('click',()=>{
     age.value=''
     number.value=''
     cnic.value=''
-// for (const x of coulom) {
-    
-//     x.value=''
-// }
-
-
-
-
-
-
-
-
-
-
-    // table.innerHTML +=`<tr>
-    //         <td>${1}</td>
-    //         <td>${rollno++}</td>
-    //         <td>${fullName.value}</td>
-    //         <td>${age.value}</td>
-    //         <td>${gender.value}</td>
-    //         <td>${number.value}</td>
-    //         <td>${cnic.value}</td>
-    //     </tr>`
 })
+// var dltbtn = document.getElementById('dltbtn')
+// dltbtn.addEventListener('click',{
+//     alert('ok')
+// })
+
 
 
